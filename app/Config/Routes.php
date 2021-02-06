@@ -36,7 +36,16 @@ $routes->group('/admin', ['filter' => 'nonAuth'], function ($routes) {
 	$routes->get('ubah/(:num)', 'AdminController::ubah/$1');
 	$routes->post('ganti/(:num)', 'AdminController::ganti/$1');
 });
-// $routes->get('/', 'Home::index');
+
+$routes->group('/pelanggan', ['filter' => 'nonAuth'], function ($routes) {
+	$routes->get('/', 'PelangganController');
+	$routes->get('tambah', 'PelangganController::tambah');
+	$routes->post('simpan', 'PelangganController::simpan');
+	$routes->get('hapus/(:num)', 'PelangganController::hapus/$1');
+	$routes->get('ubah/(:num)', 'PelangganController::ubah/$1');
+	$routes->post('ganti/(:num)', 'PelangganController::ganti/$1');
+});
+
 
 /*
  * --------------------------------------------------------------------

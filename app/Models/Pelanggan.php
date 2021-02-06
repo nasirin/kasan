@@ -39,4 +39,26 @@ class Pelanggan extends Model
 	protected $afterFind            = [];
 	protected $beforeDelete         = [];
 	protected $afterDelete          = [];
+
+	public function simpan($post)
+	{
+		$data = [
+			'namaPel' => $post['nama'],
+			'notelpPel' => $post['telepon'],
+			'alamatPel' => $post['alamat']
+		];
+
+		$this->insert($data);
+	}
+
+	public function ubah($post, $id)
+	{
+		$data = [
+			'namaPel' => $post['nama'],
+			'notelpPel' => $post['telepon'],
+			'alamatPel' => $post['alamat']
+		];
+
+		$this->update([$this->primaryKey => $id], $data);
+	}
 }
