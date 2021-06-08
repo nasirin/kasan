@@ -1,0 +1,343 @@
+ERROR - 2021-02-07 01:01:02 --> mysqli_sql_exception: Table 'kasan.teknisis' doesn't exist in C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Model.php(163): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, Array)
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Auth.php(27): CodeIgniter\BaseModel->find(Array)
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#12 {main}
+CRITICAL - 2021-02-07 01:01:02 --> Table 'kasan.teknisis' doesn't exist
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Model.php(163): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, Array)
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Auth.php(27): CodeIgniter\BaseModel->find(Array)
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#12 {main}
+ERROR - 2021-02-07 01:02:53 --> mysqli_sql_exception: Table 'kasan.teknisis' doesn't exist in C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Auth.php(27): CodeIgniter\Model->__call('getWhere', Array)
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#11 {main}
+CRITICAL - 2021-02-07 01:02:53 --> Table 'kasan.teknisis' doesn't exist
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2035): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Auth.php(27): CodeIgniter\Model->__call('getWhere', Array)
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#11 {main}
+CRITICAL - 2021-02-07 01:13:30 --> Undefined index: username
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Models\Teknisi.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 46, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Auth.php(28): App\Models\Teknisi->login(Array)
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#7 {main}
+CRITICAL - 2021-02-07 02:06:06 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 02:08:00 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 02:14:46 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4096 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-07 02:16:17 --> Undefined index: printer
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Views\page\Dashboard.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 52, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\Users\\Bon ca...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/dashboard', Array, true)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(23): view('page/dashboard', Array)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->index()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#10 {main}
+CRITICAL - 2021-02-07 02:51:01 --> Too few arguments to function App\Models\Transaksi::simpan(), 0 passed in C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php on line 41 and exactly 1 expected
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(41): App\Models\Transaksi->simpan()
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->simpan()
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
+CRITICAL - 2021-02-07 02:51:21 --> Undefined index: pelanggan
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Models\Transaksi.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 61, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(41): App\Models\Transaksi->simpan(Array)
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->simpan()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#7 {main}
+CRITICAL - 2021-02-07 02:52:31 --> Undefined index: nama
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Models\Transaksi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 62, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(41): App\Models\Transaksi->simpan(Array)
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->simpan()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#7 {main}
+CRITICAL - 2021-02-07 03:04:41 --> Cannot use object of type mysqli as array
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/service/Se...', Array, true)
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(51): view('page/service/Se...', Array)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->ubah('1')
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}
+CRITICAL - 2021-02-07 03:09:02 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/service/Se...', Array, true)
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(52): view('page/service/Se...', Array)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->ubah('1')
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}
+CRITICAL - 2021-02-07 03:09:16 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/service/Se...', Array, true)
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(52): view('page/service/Se...', Array)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->ubah('1')
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}
+CRITICAL - 2021-02-07 03:12:44 --> Call to undefined method App\Models\Pelanggan::getData
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(48): CodeIgniter\Model->__call('getData', Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->ubah('1')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
+CRITICAL - 2021-02-07 03:13:17 --> Call to undefined method App\Models\Pelanggan::getData
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(48): CodeIgniter\Model->__call('getData', Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->ubah('1')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
+CRITICAL - 2021-02-07 03:13:25 --> Call to undefined method App\Models\Pelanggan::getData
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(48): CodeIgniter\Model->__call('getData', Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->ubah('1')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
+CRITICAL - 2021-02-07 03:13:45 --> Undefined variable: tansaksi
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Views\page\service\ServiceUbah.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Bon ca...', 35, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\Users\\Bon ca...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/service/Se...', Array, true)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(54): view('page/service/Se...', Array)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->ubah('1')
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#10 {main}
+CRITICAL - 2021-02-07 03:31:48 --> Undefined index: pelanggan
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Models\Transaksi.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 61, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(41): App\Models\Transaksi->simpan(Array)
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->simpan()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#7 {main}
+CRITICAL - 2021-02-07 03:32:11 --> Invalid file: page/service/pelangganUbah.php
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/service/pe...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/service/pe...', Array, true)
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\PelangganController.php(46): view('page/service/pe...', Array)
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\PelangganController->ubah('3')
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PelangganController))
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#8 {main}
+CRITICAL - 2021-02-07 03:34:30 --> Invalid file: page/service/pelangganUbah.php
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/service/pe...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/service/pe...', Array, true)
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\PelangganController.php(46): view('page/service/pe...', Array)
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\PelangganController->ubah('3')
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PelangganController))
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#8 {main}
+CRITICAL - 2021-02-07 03:34:35 --> Invalid file: page/service/pelangganUbah.php
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/service/pe...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/service/pe...', Array, true)
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\PelangganController.php(46): view('page/service/pe...', Array)
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\PelangganController->ubah('3')
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PelangganController))
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#8 {main}
+CRITICAL - 2021-02-07 03:48:33 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Config\Routes.php on line 49
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Config\Routes.php(49): CodeIgniter\Router\RouteCollection->get('/antrian', Array, 'Antrian')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(803): require('C:\\Users\\Bon ca...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
+CRITICAL - 2021-02-07 03:49:01 --> Call to undefined method App\Models\Antrian::getLastRow
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Antrian.php(20): CodeIgniter\Model->__call('getLastRow', Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
+CRITICAL - 2021-02-07 03:50:29 --> Call to a member function getLastRow() on array
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#5 {main}
+CRITICAL - 2021-02-07 04:03:54 --> Trying to access array offset on value of type null
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Antrian.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\Bon ca...', 21, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
+CRITICAL - 2021-02-07 04:07:09 --> Undefined variable: no
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Antrian.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Bon ca...', 34, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
+CRITICAL - 2021-02-07 04:35:45 --> Call to undefined method CodeIgniter\Session\Session::unset()
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->logout()
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#5 {main}
+CRITICAL - 2021-02-07 04:42:28 --> Undefined variable: data
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Views\page\noantrian.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Bon ca...', 21, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\Users\\Bon ca...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/noantrian', Array, true)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Antrian.php(42): view('page/noantrian', Array)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#10 {main}
+CRITICAL - 2021-02-07 04:43:29 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Bon ca...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}
+CRITICAL - 2021-02-07 05:33:46 --> Undefined variable: pelanggan
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Views\page\teknisi\teknisiTambah.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Bon ca...', 36, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\Users\\Bon ca...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/teknisi/te...', Array, true)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Teknisi.php(29): view('page/teknisi/te...')
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Teknisi->tambah()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teknisi))
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#10 {main}
+CRITICAL - 2021-02-07 05:59:41 --> Undefined index: username
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Models\Teknisi.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 46, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Auth.php(28): App\Models\Teknisi->login(Array)
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#7 {main}
+CRITICAL - 2021-02-07 06:00:19 --> Undefined index: username
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Models\Teknisi.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\Bon ca...', 46, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Auth.php(28): App\Models\Teknisi->login(Array)
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#7 {main}
+CRITICAL - 2021-02-07 06:03:03 --> Trying to access array offset on value of type null
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Views\page\noantrian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\Bon ca...', 24, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\Users\\Bon ca...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/noantrian', Array, true)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Antrian.php(44): view('page/noantrian', Array)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#10 {main}
+CRITICAL - 2021-02-07 06:08:11 --> Trying to access array offset on value of type null
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Views\page\noantrian.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\Bon ca...', 24, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\Users\\Bon ca...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/noantrian', Array, true)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Antrian.php(44): view('page/noantrian', Array)
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#10 {main}

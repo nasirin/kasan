@@ -1,0 +1,167 @@
+ERROR - 2021-02-06 10:14:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(20) NOT NULL,
+	`password` varchar(50) NOT NULL,
+	CONSTRAINT `pk_teknisi` PRI...' at line 4 in C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE `t...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\Forge.php(525): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Database\Migrations\2021-02-06-161006_Teknisi.php(31): CodeIgniter\Database\Forge->createTable('teknisi')
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(1057): App\Database\Migrations\Teknisi->up()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(932): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-02-06 10:14:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(20) NOT NULL,
+	`password` varchar(50) NOT NULL,
+	CONSTRAINT `pk_teknisi` PRI...' at line 4 in C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE `t...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\Forge.php(525): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Database\Migrations\2021-02-06-161006_Teknisi.php(31): CodeIgniter\Database\Forge->createTable('teknisi')
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(1057): App\Database\Migrations\Teknisi->up()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(932): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-02-06 10:16:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(20) NOT NULL,
+	`password` varchar(50) NOT NULL,
+	CONSTRAINT `pk_teknisi` PRI...' at line 4 in C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE `t...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\Forge.php(525): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Database\Migrations\2021-02-06-161006_Teknisi.php(31): CodeIgniter\Database\Forge->createTable('teknisi')
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(1057): App\Database\Migrations\Teknisi->up()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(932): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-02-06 10:17:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(20) NOT NULL,
+	`password` varchar(50) NOT NULL,
+	KEY `idTeknisi` (`idTeknisi...' at line 4 in C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE `t...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\Forge.php(525): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Database\Migrations\2021-02-06-161006_Teknisi.php(31): CodeIgniter\Database\Forge->createTable('teknisi')
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(1057): App\Database\Migrations\Teknisi->up()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(932): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-02-06 10:18:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(20) NOT NULL,
+	`password` varchar(50) NOT NULL,
+	CONSTRAINT `pk_teknisi` PRI...' at line 4 in C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE `t...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\Forge.php(525): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Database\Migrations\2021-02-06-161006_Teknisi.php(31): CodeIgniter\Database\Forge->createTable('teknisi')
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(1057): App\Database\Migrations\Teknisi->up()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(932): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-02-06 10:20:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(20) NOT NULL,
+	`password` varchar(50) NOT NULL,
+	CONSTRAINT `pk_teknisi` PRI...' at line 4 in C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE `t...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\Forge.php(525): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Database\Migrations\2021-02-06-161006_Teknisi.php(30): CodeIgniter\Database\Forge->createTable('teknisi')
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(1057): App\Database\Migrations\Teknisi->up()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(932): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2021-02-06 10:31:24 --> mysqli_sql_exception: Invalid default value for 'createdAt' in C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('CREATE TABLE `p...')
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\Forge.php(525): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Database\Migrations\2021-02-06-162525_Pelanggan.php(35): CodeIgniter\Database\Forge->createTable('pelanggan')
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(1057): App\Database\Migrations\Pelanggan->up()
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(94): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(932): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate')
+#12 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#15 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\spark(66): CodeIgniter\CLI\Console->run()
+#16 {main}
+CRITICAL - 2021-02-06 23:55:10 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/dashboard', Array, true)
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(11): view('page/dashboard')
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->index()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}
+CRITICAL - 2021-02-06 23:55:11 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('page/dashboard', Array, true)
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(11): view('page/dashboard')
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->index()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}

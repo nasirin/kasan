@@ -39,7 +39,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="/antrian" class="nav-link" target="_blank">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Antrian
@@ -47,7 +47,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="#modal" data-toggle="modal" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Laporan
@@ -55,7 +55,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="/teknisi" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Teknisi
@@ -63,7 +63,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="/logout" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
                             Logout

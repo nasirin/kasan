@@ -34,8 +34,13 @@ class PelangganController extends BaseController
 		$post = $this->request->getVar();
 
 		$this->pelanggan->simpan($post);
-		session()->setFlashdata('success', 'Data Tersimpan');
-		return redirect()->to('/pelanggan');
+		if ($post['nonadmin']) {
+			session()->setFlashdata('success', 'Data Tersimpan');
+			return redirect()->to('/');
+		} else {
+			session()->setFlashdata('success', 'Data Tersimpan');
+			return redirect()->to('/pelanggan');
+		}
 	}
 
 	public function ubah($id)
@@ -53,5 +58,10 @@ class PelangganController extends BaseController
 		$this->pelanggan->ubah($post, $id);
 		session()->setFlashdata('success', 'Data Terupdate');
 		return redirect()->to('/pelanggan');
+	}
+
+	public function daftar()
+	{
+		return view('page/daftar');
 	}
 }

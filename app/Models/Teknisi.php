@@ -47,4 +47,26 @@ class Teknisi extends Model
 			->where('password', $post['password'])
 			->get()->getRowArray();
 	}
+
+	public function simpan($post)
+	{
+		$data = [
+			'namaTeknisi' => $post['nama'],
+			'username' => $post['username'],
+			'password' => $post['password']
+		];
+
+		$this->insert($data);
+	}
+
+	public function ubah($post, $id)
+	{
+		$data = [
+			'namaTeknisi' => $post['nama'],
+			'username' => $post['username'],
+			'password' => $post['password']
+		];
+
+		$this->update([$this->primaryKey => $id], $data);
+	}
 }

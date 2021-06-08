@@ -54,6 +54,23 @@ class Transaksi extends Model
 		}
 	}
 
+	public function laporan($post = null)
+	{
+		if ($post) {
+			return $this->db->table($this->table)
+				->join('pelanggans', 'pelanggans.idPel = transaksis.idPel', 'left')
+				->join('teknisis', 'teknisis.idTeknisi = transaksis.idTeknisi', 'left')
+				->where('transaksis.createdAt >=', $post['mulai'])
+				->where('transaksis.createdAt <=', $post['sampai'])
+				->get()->getResultArray();
+		} else {
+			return $this->db->table($this->table)
+				->join('pelanggans', 'pelanggans.idPel = transaksis.idPel', 'left')
+				->join('teknisis', 'teknisis.idTeknisi = transaksis.idTeknisi', 'left')
+				->get()->getResultArray();
+		}
+	}
+
 	public function simpan($post)
 	{
 		// idPel', 'namaPrinter', 'type', 'kondisi', 'keterangan', 'harga', 'statusTransaksi', 'idTeknisi'

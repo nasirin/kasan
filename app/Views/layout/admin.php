@@ -17,6 +17,7 @@
             <?= $this->renderSection('content') ?>
         </div>
         <!-- /.content-wrapper -->
+        <?= $this->include('components/modal') ?>
     </div>
     <!-- ./wrapper -->
 

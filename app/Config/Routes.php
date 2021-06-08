@@ -25,8 +25,9 @@ $routes->setAutoRoute(true);
 
 $routes->group('/auth', ['filter' => 'auth'], function ($routes) {
 	$routes->get('/', 'Auth',);
-	$routes->post('/login', 'Auth::login');
+	$routes->post('login', 'Auth::login');
 });
+$routes->get('logout', 'Auth::logout');
 
 $routes->group('/admin', ['filter' => 'nonAuth'], function ($routes) {
 	$routes->get('/', 'AdminController');
@@ -35,6 +36,15 @@ $routes->group('/admin', ['filter' => 'nonAuth'], function ($routes) {
 	$routes->get('hapus/(:num)', 'AdminController::hapus/$1');
 	$routes->get('ubah/(:num)', 'AdminController::ubah/$1');
 	$routes->post('ganti/(:num)', 'AdminController::ganti/$1');
+});
+
+$routes->group('/teknisi', ['filter' => 'nonAuth'], function ($routes) {
+	$routes->get('/', 'Teknisi');
+	$routes->get('tambah', 'Teknisi::tambah');
+	$routes->post('simpan', 'Teknisi::simpan');
+	$routes->get('hapus/(:num)', 'Teknisi::hapus/$1');
+	$routes->get('ubah/(:num)', 'Teknisi::ubah/$1');
+	$routes->post('ganti/(:num)', 'Teknisi::ganti/$1');
 });
 
 $routes->group('/pelanggan', ['filter' => 'nonAuth'], function ($routes) {
@@ -46,6 +56,17 @@ $routes->group('/pelanggan', ['filter' => 'nonAuth'], function ($routes) {
 	$routes->post('ganti/(:num)', 'PelangganController::ganti/$1');
 });
 
+$routes->group('/daftar', function ($routes) {
+	$routes->get('/', 'PelangganController::daftar');
+	$routes->post('simpan', 'PelangganController::simpan');
+});
+
+$routes->get('/antrian', 'Antrian');
+
+$routes->group('/laporan', ['filter' => 'nonAuth'], function ($routes) {
+	$routes->post('/', 'Laporan');
+	$routes->get('/', 'Laporan');
+});
 
 /*
  * --------------------------------------------------------------------
