@@ -23,7 +23,7 @@ class AdminController extends BaseController
 			'no' => 1,
 			'transaksi' => $this->transaksi->getData()
 		];
-		return view('page/service/service', $data);
+		return view('page/service/Service', $data);
 	}
 
 	public function tambah()
