@@ -63,9 +63,9 @@ $routes->group('/daftar', function ($routes) {
 
 $routes->get('/antrian', 'Antrian');
 
-$routes->group('/laporan', ['filter' => 'nonAuth'], function ($routes) {
+$routes->group('laporan', ['filter' => 'nonAuth'], function ($routes) {
 	$routes->post('/', 'Laporan');
-	$routes->get('/', 'Laporan');
+	$routes->get('/', 'Laporan::all');
 });
 
 /*

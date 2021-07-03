@@ -17,11 +17,16 @@ class Laporan extends BaseController
 	public function index()
 	{
 		$post = $this->request->getVar();
-		if ($post) {
-			$laporan = $this->transaksi->laporan($post);
-		} else {
-			$laporan = $this->transaksi->laporan();
-		}
+		$laporan = $this->transaksi->laporan($post);
+		
+		$data = ['laporan' => $laporan, 'no' => 1];
+
+		return view('page/laporan', $data);
+	}
+
+	public function all()
+	{
+		$laporan = $this->transaksi->laporan();
 
 		$data = ['laporan' => $laporan, 'no' => 1];
 
