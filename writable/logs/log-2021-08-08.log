@@ -66,3 +66,15 @@ CRITICAL - 2021-08-08 14:51:42 --> Undefined variable: test1
 #4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
 #6 {main}
+ERROR - 2021-08-08 15:08:59 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-08 15:08:59 --> Unable to connect to the database.
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Models\Transaksi.php(53): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\AdminController.php(24): App\Models\Transaksi->getData()
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\AdminController->index()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}
