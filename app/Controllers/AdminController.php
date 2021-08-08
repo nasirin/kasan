@@ -38,15 +38,19 @@ class AdminController extends BaseController
 	{
 		$post = $this->request->getVar();
 
-		$this->transaksi->simpan($post);
-		session()->setFlashdata('success', 'Data Tersimpan');
+		$simpan = $this->transaksi->simpan($post);
+		
+		if ($simpan) {
+			session()->setFlashdata('success', 'Data Tersimpan');
+		} else {
+			session()->setFlashdata('success', 'Data Tersimpan');
+		}
+
 		return redirect()->to('/admin');
 	}
 
 	public function ubah($id)
 	{
-		// $transaksi = $this->transaksi->getData($id);
-		// dd($transaksi);
 		$data = [
 			'transaksi' => $this->transaksi->getData($id),
 			'pelanggan' => $this->pelanggan->findAll()

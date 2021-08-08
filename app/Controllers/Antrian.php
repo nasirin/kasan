@@ -18,10 +18,13 @@ class Antrian extends BaseController
 	{
 
 		$data = $this->antrian->last();
+		$test = date('ymd');
+		$test2 = date('ymd', strtotime($data['createdAt']));
+		// dd($test);
 		if ($data) {
-			if ($data['createdAt'] == date('ymd')) {
-				$noantri = 1;
-				$no = $noantri + 1;
+			if (date('ymd', strtotime($data['createdAt']))  != date('ymd')) {
+				$no = 1;
+				// $no = $noantri + 1;
 			} else {
 				$no = $data['noAntrian'] + 1;
 			}
@@ -40,7 +43,7 @@ class Antrian extends BaseController
 		}
 
 		$this->antrian->simpan($no, $id);
-		$noUrut['no'] = $this->antrian->last();
+		$noUrut['no'] = $this->antrian->last();	
 		return view('page/noantrian', $noUrut);
 	}
 }

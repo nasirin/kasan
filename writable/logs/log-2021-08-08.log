@@ -1,0 +1,68 @@
+ERROR - 2021-08-08 14:38:05 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-08-08 14:38:05 --> Unable to connect to the database.
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Models\Antrian.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Antrian.php(20): App\Models\Antrian->last()
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}
+ERROR - 2021-08-08 14:39:06 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-08-08 14:39:06 --> Unable to connect to the database.
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Models\Antrian.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Antrian.php(20): App\Models\Antrian->last()
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}
+ERROR - 2021-08-08 14:39:12 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-08-08 14:39:12 --> Unable to connect to the database.
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Models\Antrian.php(47): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Antrian.php(20): App\Models\Antrian->last()
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#6 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#9 {main}
+CRITICAL - 2021-08-08 14:46:26 --> Undefined variable: test1
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Antrian.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Bon ca...', 23, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
+CRITICAL - 2021-08-08 14:47:50 --> Trying to access array offset on value of type null
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Antrian.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\Bon ca...', 22, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
+CRITICAL - 2021-08-08 14:48:03 --> Trying to access array offset on value of type null
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Antrian.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\Bon ca...', 22, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
+CRITICAL - 2021-08-08 14:51:42 --> Undefined variable: test1
+#0 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\app\Controllers\Antrian.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Bon ca...', 23, Array)
+#1 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Antrian->index()
+#2 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Bon cabe\Documents\pesanan\kasan\app\kasan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Bon ca...')
+#6 {main}
